@@ -1,0 +1,55 @@
+body{
+  font-family: Poppins, serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.Blog1{
+  margin: -0.5rem 0 1rem 3rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#main-body-Blog{ /*Hintergrund der 9 Bilder + Text*/
+  background-color: #dcdbdb;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+.flex-Blog-1{/*Hauptteil ist in 3 Spalten und 3 Zeilen geteilt*/
+  display: flex;
+  flex-direction: column;
+
+}
+.Blog-text{
+  display: flex;
+  font-size: 15px;
+  margin-right: 40px;
+}
+.Mehr-lesen{
+  text-decoration: underline;
+  font-size: 15px;
+  margin-top:-1rem;
+  cursor:pointer;
+}
+.Mehr:hover{
+
+}
+.Blog-Headline{
+  font-size: 15px;
+  font-weight: bold;
+}
+.Blog-Pic{
+
+  margin:60px 40px 0 0;
+}
+.bottom-icons-Blog{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

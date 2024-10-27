@@ -1,0 +1,35 @@
+@media screen and (max-width: 1100px){
+.Laptop{
+  display: none;  /*Bild verschwinden lassen*/
+}
+  .development{
+    margin-bottom: 1rem;  /*positions Anpassung*/
+  }
+  .flexbox2{
+    width: 100%;  /*von 50% auf 100%*/
+  }
+}
+
+@media screen and (max-width: 750px){
+
+  .List{
+    display: block; /*List wieder erscheinen lassen*/
+  }
+  .flexbox1-1{
+    align-content: space-between; /*links rechts positionierung*/
+    flex-direction: row;
+    width: 100%;  /*da jetzt die ganze bandbreite benutzt wird statt 50% 100%*/
+  }
+  .flexbox1-1-1{
+    display: none;  /*alle links Ausschalten*/
+  }
+  .Menu4{
+    display: none;  /*alle links Ausschalten*/
+  }
+  .Menu3 {
+    display: none;  /*alle links Ausschalten*/
+  }
+  .Menu2{
+    display: none;  /*alle links Ausschalten*/
+  }
+}

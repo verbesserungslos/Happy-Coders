@@ -1,0 +1,222 @@
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+body{
+  font-family: Poppins, serif;  /*schriftzug für die Seite verallgemeinern*/
+  font-weight: 500;             /*schriftstärke*/
+  margin: 0;
+}
+
+#header_content { /*Hintergrund*/
+  background-color: #dcdbdb;
+  background-size: cover;
+  background-position: top;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+#header_content1 {
+  background-color: #dcdbdb;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+
+
+}
+.flexbox1-1{  /*flexbox für den Header text rechts vom Laptop*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 10%;
+  width: 50%;
+  margin-top: 0;
+}
+.flexbox1-1-1{  /*flexbox für die links und Socialmedia links*/
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  height: 10%;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.Menu1{ /*Formation für den linken text "Happy Coders"*/
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Menu2-1{ /*Unterstreicht das Wort Über uns*/
+text-decoration: underline;
+}
+.Menu2{ /*Schriftzug für "Über Uns, Blog, Kontakt"*/
+  margin-right: 10px;
+  font-size: 18px;
+  cursor:pointer;
+}
+.Menu2:hover{ /*Unterstreicht die Wörter "Über Uns, Blog, Kontakt" wen der Corsair über dem Text ist*/
+  text-decoration: underline;
+}
+
+.Menu3{ /*Formation für die Social media Zeichen*/
+  margin-left: 15px;
+  cursor:pointer;
+}
+.List{  /*Bild Formatierung für die Responsiv-Seite wen unter 750px*/
+  width:40px;
+  margin-top: 3.2rem;
+  display: none;
+  margin-right: 5%;
+}
+.ListB{/*Größe des Tabellen Zeichens*/
+  height:30px
+}
+.Menu4{
+  margin-left: 15px;
+  margin-right: 5%;
+  cursor:pointer;
+}
+.Laptop{ /*Großes Homepage Bild*/
+  width: 50%;
+  margin: 0 3rem 3rem 3rem;
+}
+
+.flexbox2{  /*Haupttext neben dem Laptop*/
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+
+  width: 50%;
+  margin: 3rem 3rem 3rem 3rem;
+}
+.development{ /*Haupttext Überschrift*/
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+.headtxt{ /*Haupttext Schriftgröße*/
+  font-size: 37px;
+}
+#Steps{/*Hintergrund der Schritte 1,2,3*/
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  width: 80%;
+  margin:0 10% 0 10%;
+}
+.Überschrift-3Steps{
+  display:flex;
+  margin-left: 3rem;
+  font-size: 30px;
+  font-weight: bold;
+  flex-direction: column;
+  }
+.Nummern-3Steps{
+  display:flex;
+  margin: -7rem 0 -7rem 5%;
+  align-items: center;
+  font-size: 140px;
+  flex-direction: row;
+}
+.text-3Steps{
+  display:flex;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#info{/*Hintergrund der Grauen Infoboxen*/
+  margin:0 10% 0 10%;
+  width: 80%;
+  display: flex;
+}
+.gray-box{/*Farbe der Grauen Boxen*/
+
+  width: 33%;
+  background-color: #dcdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.gray-box-middle{/*Mittlerer Grau Block*/
+  display: flex;
+  justify-content: center;
+  border-left-style: solid;
+  border-left-color: white;
+  border-left-width: 1rem;
+  border-right-style: solid;
+  border-right-color: white;
+  border-right-width: 1rem;
+  width: 33%;
+  background-color: #dcdbdb;
+  flex-direction: column;
+
+}
+.gray-box-icons{
+  display: flex;
+  align-self: center;
+  margin-top: 5%;
+  height: 40px;
+  width: 40px;
+
+}
+.gray-box_Headline{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.gray-box_text{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+  font-weight: lighter;
+  font-size: 18px;
+
+}
+#made_happiness{
+
+  display: flex;
+  flex-direction: column;
+
+  width:100%;
+
+}
+.bottom-icons-Homepage{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.bottom-icons-edit{
+  margin: 0 2% 0 2%;
+}
+.bottom-text{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
